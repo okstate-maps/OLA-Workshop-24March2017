@@ -11,6 +11,8 @@
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
+		<link rel="stylesheet" href="css/override.css">
+
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -23,19 +25,63 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-					<h1>The Oklahoma Digital Maps Collection</h1>
-					<h3>OLA Workshop, 24 March 2017</h3>
-					<h4>Kevin Dyke, Spatial Data Librarian<br/>Oklahoma State University Libraries</h4>
+				<section data-markdown>
+					<script type="text/template">
+						# The Oklahoma Digital Maps Collection
+						## OLA Workshop, 24 March 2017
+						#### Kevin Dyke, Spatial Data Librarian
+						#### Oklahoma State University Libraries
+					</script>
+				</section>
+				
+				<section data-markdown>
+					<script type="text/template">
+						<p>The [Oklahoma Digital Maps Collection](http://www.library.okstate.edu/collections/digital-collections/oklahoma-digital-maps-collection/) brings together more than 8,000 maps of Oklahoma and Indian Territory from inception through statehood to the present. 		
+
+					</script>
 				</section>
 				<section>
-					<p>The <a href="http://www.library.okstate.edu/collections/digital-collections/oklahoma-digital-maps-collection/" target="_none">Oklahoma Digital Maps Collection</a> brings together more than 8,000 maps of Oklahoma and Indian Territory from inception through statehood to the present.</p>
+					<section data-markdown>
+						<script type="text/template">
+							# Where the maps live
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							The home of the digital maps collection (and all of OSU's digital collections) is CONTENTdm. 
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							CONTENTdm is a web application created by OCLC. It allows for robust, customized (as needed) metadata. The search can be customized on a collection by collection basis.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							# A mercifully brief demo
+						</script>
+					</section>
+					<section>
+						<iframe data-src="http://dc.library.okstate.edu/cdm/search/collection/OKMaps"></iframe>
+						<aside>
+							Show collection
+						</aside>
+					</section>
+				
+					<section data-markdown>
+						<script type="text/template">
+							The search interface is great for things like documents and photographs. Unfortunately, it's not as great for searching for maps. There are a few reasons for this mismatch.
+
+							- Map titles tend to be kinda long <!-- .element: class="fragment" -->
+							- Titles do not always correspond to the content of a map very well <!-- .element: class="fragment" -->
+							- OCR of maps is not really a thing <!-- .element: class="fragment" -->
+							- Single years do not work well as facets <!-- .element: class="fragment" -->
+						</script>
+					</section>
 				</section>
-				<section>
-					<p></p>
-				</section>
-			</div>
-		</div>
+
+			</div><!-- slides -->
+		</div><!-- reveal -->
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
