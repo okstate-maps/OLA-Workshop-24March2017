@@ -4,3 +4,10 @@ iframe {
 	width:900px;
 	height:600px;
 }
+
+/*
+Effectively, darken background image
+*/
+.reveal .backgrounds {
+	opacity: 0.5;
+}

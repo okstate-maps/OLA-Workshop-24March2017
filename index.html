@@ -28,22 +28,23 @@
 				<section data-markdown>
 					<script type="text/template">
 						# The Oklahoma Digital Maps Collection
-						## OLA Workshop, 24 March 2017
-						#### Kevin Dyke, Spatial Data Librarian
-						#### Oklahoma State University Libraries
+						#### OLA Workshop, 24 March 2017
+						#### Kevin Dyke
+						#### Spatial Data Librarian
+						#### Oklahoma State University Library
 					</script>
 				</section>
 				
 				<section data-markdown>
 					<script type="text/template">
-						<p>The [Oklahoma Digital Maps Collection](http://www.library.okstate.edu/collections/digital-collections/oklahoma-digital-maps-collection/) brings together more than 8,000 maps of Oklahoma and Indian Territory from inception through statehood to the present. 		
+						The [Oklahoma Digital Maps Collection](http://www.library.okstate.edu/collections/digital-collections/oklahoma-digital-maps-collection/) brings together more than 8,000 maps of Oklahoma and Indian Territory from inception through statehood to the present. 		
 
 					</script>
 				</section>
 				<section>
 					<section data-markdown>
 						<script type="text/template">
-							# Where the maps live
+							## Where the maps live
 						</script>
 					</section>
 					<section data-markdown>
@@ -58,16 +59,10 @@
 					</section>
 					<section data-markdown>
 						<script type="text/template">
-							# A mercifully brief demo
+							### [A brief demo](http://dc.library.okstate.edu/cdm/search/collection/OKMaps)
 						</script>
 					</section>
-					<section>
-						<iframe data-src="http://dc.library.okstate.edu/cdm/search/collection/OKMaps"></iframe>
-						<aside>
-							Show collection
-						</aside>
-					</section>
-				
+					
 					<section data-markdown>
 						<script type="text/template">
 							The search interface is great for things like documents and photographs. Unfortunately, it's not as great for searching for maps. There are a few reasons for this mismatch.
@@ -78,6 +73,115 @@
 							- Single years do not work well as facets <!-- .element: class="fragment" -->
 						</script>
 					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Case study: 
+							#### The Works Progress Administration Maps Collection
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							During 1935 and 1936, the Works Progress Administration and the Oklahoma Tax Commission produced over 2,400 maps to determine the value of real estate. The maps are arranged by county and indicate the owner of all the farmland in each county. Each map has the township and range indication and generally covers a full 6 by 6 mile township.
+						</script>
+					</section>	
+					<section data-markdown>
+						<script type="text/template">
+							#### A brief interlude
+
+							![Township and Range Explanation](img/township_range.gif)  
+							- [Image Source](http://www.usgennet.org/usa/ok/county/muskogee/cemeteries/maps/trro.html)  
+							- [More info on the Public Land Survey System](https://nationalmap.gov/small_scale/a_plss.html)
+						</script>
+					</section>
+					<section>
+						<a href="http://dc.library.okstate.edu/cdm/singleitem/collection/OKMaps/id/1656"><img style="max-width:70%;" data-src="img/wpa1.jpg"/></a>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							If a user knows the township and range of the area they're interested in, this setup works okay (identifying the correct search terms is cumbersome). Without that information in hand, they will need assistance or will simply move on. An opportunity lost!
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							The good news: because we have the township and range information for each map, I was able to use that information to create a map where users can quickly find the WPA map for the area they're interested in.
+						</script>
+					</section>					
+					<section>
+						<iframe data-src="https://krdyke.carto.com/viz/f49f5302-8035-11e6-a437-0ee66e2c9693/embed_map"></iframe>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+						#### The WPA map
+						- Quick to make <!-- .element: class="fragment" -->
+						- No extra IT resources needed <!-- .element: class="fragment" -->
+						- No maintenance on my part <!-- .element: class="fragment" -->
+						- Very high benefit compared to "cost" <!-- .element: class="fragment" -->
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## Map-based search 
+						</script>	
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							In contrast to the WPA map, which was a very fast and collection-specific project, I've also been working on a map-based search interface for the *entire* Digital Maps Collection.
+						</script>	
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+						- Metadata driven
+						- Open source
+						- No extra IT resources needed
+						- Potential for use beyond OSU
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+						# Demo Time
+						</script>
+					</section>
+					<section>
+							<iframe data-src="https://okstate-maps.github.io/okmaps-search/"></iframe>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							# Aerial Photographs
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							OSU has a large, but incomplete collection of aerials.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							Same goes for OU, ODL, and the Oklahoma Geological Survey. 
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							The Oklahoma Corporation Commission started the Oklahoma Historical Aerial Digitization Project to bring together all of the disparate sets of Oklahoma aerials, digitize, and make them freely available to the public.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							You can find out more about the ongoing project in [this Google Drive folder](https://drive.google.com/drive/u/0/folders/0B4330K7dsRzNSEZXTndMOG9hcm8).
+						</script>
+					</section>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					If you ever want to review these slides, the link is at the bottom of this slide. My email address is kdyke @ okstate.edu if you ever need anything map related!
+
+					https://okstate-maps.github.io/OLA-Workshop-24March2017/
+					</script>
 				</section>
 
 			</div><!-- slides -->
